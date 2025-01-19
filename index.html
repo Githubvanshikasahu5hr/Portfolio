@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav>
+      <P>My Portfolio</P>
+      <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <button id="dark-mode-toggle"><i class="fa-solid fa-moon"></i></button>
+    </nav>
+  </header>
+  <div class="section">
+    <div class="section-container">
+        <div class="content">
+                <p class="subtitle">HELLO</p>
+            <h1 class="title">
+                I'm <span>Vanshika <br>a</span> Web Developer
+            </h1>
+            <p class="description">
+                To secure an entry-level position in a reputable organization where I can apply my skills and knowledge to contribute to the growth of the company and to become a proficient web developer and design scalable, efficient, and user-friendly web applications that meet industry standards.
+            </p>
+            </div>
+            
+           <div class="image">
+            <img src="portfolio.jpeg" alt="">
+           </div>
+        </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about me.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A passionate front-end developer with a strong foundation in HTML, CSS, and JavaScript. I specialize in creating responsive, user-friendly websites that combine clean design with seamless functionality.With a keen eye for detail and a love for solving problems, I enjoy bringing ideas to life in the browser. I'm constantly learning and exploring new technologies to stay ahead in this ever-evolving field.</p>
+                <div class="tab-titles">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                      <li><span>Internship</span><br>On full-stack Web development <br>September24 - October 2024 </li>
+                  </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2025</span><br>BCA from Netaji Subhas University</li>
+                    <li><span>2022</span><br>Icom from RMS High School</li>
+                    <li><span>2020</span><br>Matriculation from RMS High School</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A responsive website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>An interactive to-do list app using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    <h2>Contact</h2>
+    <div class="main">
+      <div class="details">
+        <p>Email: vanshikasahu5hr@gmail.com</p>
+        <p>Phone: +91 5687594212</p>
+      </div>
+      <div class="resume">
+        <button><a href="Vanshika Sahu_Resume.pdf" class="btn">Download CV</a></button>
+        
+      </div>
+    </div>
+    
+  </div>
+
+
+<div id="footer">
+  <p>&copy; Vanshika Portfolio 2025</p>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
